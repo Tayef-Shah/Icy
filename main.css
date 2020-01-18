@@ -24,3 +24,8 @@ body {
     width: 245px;
     padding-top: 100px;
 }
+
+.col-md-5 {
+  border-style: solid;
+  border-color: black;
+}
