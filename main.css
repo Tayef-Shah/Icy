@@ -34,6 +34,7 @@ body {
   line-height: 77px;
 }
 
+<<<<<<< HEAD
 .leaderboard {
     width: 651px;
     height: 747px;
@@ -62,3 +63,24 @@ body {
     background: #CC9B91;
     border-radius: 56px;
 }
+=======
+#summary {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #114B5F;
+  padding: 50px;
+}
+
+#summaryslogan {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #114B5F;
+  padding: 50px;
+}
+>>>>>>> 91f0131aa21e6f8d2487993be1c79118fe0fac60
