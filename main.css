@@ -3,8 +3,8 @@
 
 .container-fluid {
     background-color:#EADEDA;
-    height: 800px;
-    width: 50vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
