@@ -25,7 +25,33 @@ body {
     padding-top: 100px;
 }
 
-.col-md-5 {
-  border-style: solid;
-  border-color: black;
+.welcome {
+  font-family: 'Overpass Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 77px;
+}
+
+#summary {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #114B5F;
+}
+
+#summaryslogan {
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #114B5F;
 }
