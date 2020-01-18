@@ -21,5 +21,6 @@ body {
 }
 
 .iceberg {
-    width: 247px;
+    width: 245px;
+    padding-top: 100px;
 }
