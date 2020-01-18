@@ -83,3 +83,16 @@ body {
   color: #114B5F;
   padding: 50px;
 }
+
+#wavy {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+#question {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+}
