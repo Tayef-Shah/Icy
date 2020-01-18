@@ -127,3 +127,20 @@ body {
   color: black;
   padding: 0px 25px 0px 25px;
 }
+
+.dashboard {
+  background: #EADEDA;
+  border-radius: 51px;
+}
+
+#Retailer {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background: #CC9B91;
+}
