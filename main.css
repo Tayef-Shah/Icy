@@ -24,3 +24,11 @@ body {
     width: 245px;
     padding-top: 100px;
 }
+
+.welcome {
+  font-family: 'Overpass Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 77px;
+}
