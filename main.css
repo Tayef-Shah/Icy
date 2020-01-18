@@ -4,6 +4,7 @@
 .container-fluid {
     background-color:#EADEDA;
     height: 800px;
+    width: 50vw;
 }
 
 body {
