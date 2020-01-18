@@ -78,6 +78,7 @@ body {
   font-family: Overpass Mono;
   font-style: normal;
   font-weight: 600;
+  font-size: 22px;
   text-align: center;
   letter-spacing: 0.05em;
   color: #114B5F;
@@ -95,4 +96,15 @@ body {
   font-family: Overpass;
   font-style: normal;
   font-weight: normal;
+}
+
+.btn-success {
+  background: #EADEDA;
+  border-radius: 25px;
+  border-style: none;
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  padding: 0px 25px 0px 25px;
 }
