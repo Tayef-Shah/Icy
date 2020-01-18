@@ -32,3 +32,29 @@ body {
   font-size: 50px;
   line-height: 77px;
 }
+
+.hashtag {
+    font-family: Overpass Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 49px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #114B5F;
+}
+
+.intro {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #114B5F;
+
+}
