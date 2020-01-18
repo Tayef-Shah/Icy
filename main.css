@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:300i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,600,700&display=swap');
+
 .container-fluid {
     background-color:#EADEDA;
     height: 800px;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  letter-spacing: .75px;
+  line-height: 1.6em;
+  word-wrap:break-word;
+  text-align:left;
+  margin:0;
+  overflow-x:hidden!important;
+  color: #114B5F;
+  align: center;
 }
