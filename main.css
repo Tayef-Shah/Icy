@@ -32,12 +32,18 @@ body {
   line-height: 77px;
 }
 
+.intro{
+    padding-left: 20%; 
+    padding-right: 20%;
+}
+
 .leaderboard {
     width: 651px;
-    height: 747px;
+    height: 680px;
 
     background: #EADEDA;
     border-radius: 56px;
+    margin-top: 60px;
 }
 
 .leaderboard-title{
@@ -53,13 +59,26 @@ body {
     color: #114B5F;
 }
 
-.leaderboard-list {
+.leaderboard-list-card {
     width: 651px;
     height: 607px;
 
     background: #CC9B91;
     border-radius: 56px;
 }
+
+.leaderboard-list {
+    padding: 15px;
+    margin: 20px;
+
+    background: #CC9B91;
+    list-style: none;
+}
+
+.manufacturer {
+
+}
+
 #summary {
   font-family: Overpass;
   font-style: normal;
