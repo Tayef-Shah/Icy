@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,600,700&display=swap');
 
 .container-fluid {
-    background-color:#EADEDA;
+    background-color:#E6CDB9;
     height: 100vh;
     width: 100vw;
 }
@@ -10,7 +10,7 @@
 body {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: .75px;
   line-height: 1.6em;
   word-wrap:break-word;
@@ -34,28 +34,31 @@ body {
   line-height: 77px;
 }
 
-.hashtag {
+.leaderboard {
+    width: 651px;
+    height: 747px;
+
+    background: #EADEDA;
+    border-radius: 56px;
+}
+
+.leaderboard-title{
     font-family: Overpass Mono;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 49px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 54px;
     /* identical to box height */
 
     letter-spacing: 0.05em;
-
+    margin-top: 10px;
     color: #114B5F;
 }
 
-.intro {
-    font-family: Overpass;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    letter-spacing: 0.05em;
+.leaderboard-list {
+    width: 651px;
+    height: 607px;
 
-    color: #114B5F;
-
+    background: #CC9B91;
+    border-radius: 56px;
 }
