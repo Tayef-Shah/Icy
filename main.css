@@ -3,8 +3,6 @@
 
 .container-fluid {
     background-color:#E6CDB9;
-    height: 100vh;
-    width: 100vw;
 }
 
 body {
@@ -34,7 +32,6 @@ body {
   line-height: 77px;
 }
 
-<<<<<<< HEAD
 .leaderboard {
     width: 651px;
     height: 747px;
@@ -63,7 +60,6 @@ body {
     background: #CC9B91;
     border-radius: 56px;
 }
-=======
 #summary {
   font-family: Overpass;
   font-style: normal;
@@ -83,4 +79,3 @@ body {
   color: #114B5F;
   padding: 50px;
 }
->>>>>>> 91f0131aa21e6f8d2487993be1c79118fe0fac60
