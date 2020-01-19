@@ -3,7 +3,6 @@
 
 .container-fluid {
     background-color:#E6CDB9;
-    height: 100vh;
 }
 
 body {
@@ -126,4 +125,11 @@ body {
   width: 100px;
   height: 100px;
   background: #CC9B91;
+}
+
+.manufacturer {
+  background: #CC9B91;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0px 20px 50px 20px;
 }
