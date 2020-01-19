@@ -9,19 +9,124 @@
 
   <div class="container-fluid">
 
-    <div class="row d-flex align-items-center justify-content-center">
-      <div class="col-md-6 dashboard" align="center">
-        <figure class="logo"></figure>
-        <p id="summary">Walmart</p>
+    <div class="row d-flex align-items-stretch justify-content-center">
+      <div class="row d-flex align-items-stretch">
+        <div class="col-md-12" align="center" style="background:#EADEDA;border-radius: 51px;margin:0px 0px 50px 50px;">
+          <div class="container" style="padding-top:90px;">
+            <img src="walmart-logo-24.png" width=250px/>
+          </div>
+          <p id="Name">Walmart</p>
+        </div>
+        <div class="col-md-12 d-flex align-items-center justify-content-center" align="center" style="background-image:url('https://media.giphy.com/media/eEG5KXWnt7CzS/giphy.gif');border-radius: 51px;margin:0px 0px 0px 50px; height:250px;">
+        </div>
       </div>
-      <div class="col-md-6" align="center">
-        <p id="summaryslogan">A spin on your traditional<br><br>ranking and leaderboard.</p>
+
+      <div class="col-md-5" align="center" style="background: #EADEDA;border-radius: 51px;margin:50px 50px 50px 175px;">
+
+        <ul class="nav nav-tabs" style="padding-top: 20px;">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="background: #EADEDA;border-radius:25px 25px 0px 0px;color: #114B5F;">BEEF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="background: #D5CAC7;border-radius:25px 25px 0px 0px;color: #114B5F;">LAMB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="background: #C0B6B3;border-radius:25px 25px 0px 0px;color: #114B5F;">PORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="background: #ABA29F;border-radius:25px 25px 0px 0px;color: #114B5F;">POULTRY</a>
+          </li>
+        </ul>
+
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="manufacturer">
+              <img src="icyou.png" width=100px/>
+              <p>Name</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="container-fluid2">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-12" align="center">
+          <p id="confirm">Are you certain about your choice?</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+          <button type="button" class="btn btn-success" id="Yes">Y</button>
+        </div>
+        <div class="col-md-6 d-flex justify-content-start">
+          <button type="button" class="btn btn-success" id="No">N</button>
+        </div>
       </div>
     </div>
+  </div>
+
+  </div>
 
   </div>
 
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="modal.js"></script>
 </body>
 </html>
