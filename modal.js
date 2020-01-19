@@ -21,6 +21,17 @@ span.onclick = function() {
 
 document.getElementById("Yes").addEventListener('click', function() {
   modal.style.display = "none";
+  var gif = document.getElementById("gif");
+  var i = Math.random();
+  if (i < 0.25) {
+    gif.style.background = "url('https://media.giphy.com/media/1BeESmie0gf2gBYUod/giphy.gif')";
+  } else if (i < 0.5 && i >= 0.25){
+    gif.style.background = "url('https://media.giphy.com/media/eEG5KXWnt7CzS/giphy.gif')";
+  } else if (i < 0.75 && i>=0.5) {
+    gif.style.background = "url('https://media.giphy.com/media/UynvjkM3JtXr2/giphy.gif')";
+  } else {
+    gif.style.background = "url('https://media.giphy.com/media/Ec5rtgXAU9GVi/giphy.gif')";
+  }
 }, false);
 
 document.getElementById("No").addEventListener('click', function() {

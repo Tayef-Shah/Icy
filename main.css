@@ -72,6 +72,15 @@ li {
 
 #theList {
   margin-top: 50px;
+  text-align: left;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#theList:li {
+  text-align: left;
+  list-style: none;
 }
 
 .note {
@@ -83,7 +92,7 @@ li {
 .leaderboard-list {
     width: 651px;
     height: 100%;
-
+    text-align: center;
     background: #CC9B91;
     border-radius: 56px;
 }
