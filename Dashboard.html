@@ -84,9 +84,33 @@
 
     </div>
 
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="container-fluid2">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-12" align="center">
+          <p id="confirm">Are you certain about your choice?</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+          <button type="button" class="btn btn-success" id="Yes">Y</button>
+        </div>
+        <div class="col-md-6 d-flex justify-content-start">
+          <button type="button" class="btn btn-success" id="No">N</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
   </div>
 
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="modal.js"></script>
 </body>
 </html>
