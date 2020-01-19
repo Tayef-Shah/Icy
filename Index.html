@@ -35,21 +35,28 @@
 
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#" style="background: #CC9B91;border-radius:25px 25px 0px 0px;color: #EADEDA;">BEEF</a>
+                <a class="nav-link active" id="beef" href="#" style="background: #CC9B91;border-radius:25px 25px 0px 0px;color: #EADEDA;">BEEF</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#" style="background: #BB7A6C;;border-radius:25px 25px 0px 0px;color: #EADEDA;">LAMB</a>
+                <a class="nav-link active" id="lamb" href="#" style="background: #BB7A6C;;border-radius:25px 25px 0px 0px;color: #EADEDA;">LAMB</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#" style="background: #B26A5A;border-radius:25px 25px 0px 0px;color: #EADEDA;">PORK</a>
+                <a class="nav-link active" id="pork" href="#" style="background: #B26A5A;border-radius:25px 25px 0px 0px;color: #EADEDA;">PORK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#" style="background: #AA5948;border-radius:25px 25px 0px 0px;color: #EADEDA;">POULTRY</a>
+                <a class="nav-link active" id="poultry" href="#" style="background: #AA5948;border-radius:25px 25px 0px 0px;color: #EADEDA;">POULTRY</a>
               </li>
             </ul>
 
             <div class="card leaderboard-list">
-
+              <p style="font-size:20px;padding-top:50px;font-family:Overpass Mono;color:white;">GWP stands for global warming potential</p>
+              <h1 id="empty"></h1>
+              <ul id="theList">
+                <li style="padding-bottom:50px;">#1 Beef, Process: 100% suckler, GWP: 25300</li>
+                <li style="padding-bottom:50px;">#2 Beef, Process: Lowland, GWP: 15600</li>
+                <li style="padding-bottom:50px;">#3 Beef, Process: Hill and upland, GWP: 16400</li>
+                <li style="padding-bottom:50px;">#4 Beef, Process: Non-organic, GWP: 15800</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -86,6 +93,7 @@
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
   <script src="todashboard.js"></script>
+  <script src="leaders.js"></script>
 
 </body>
 
